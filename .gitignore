@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Models, Adapters, and Weights
+tars_lora/
+final_adapter/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Output Graphics
+loss_curve.png
+*.png
+!TARS.png
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
