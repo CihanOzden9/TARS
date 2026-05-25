@@ -15,7 +15,7 @@ env/
 profile_default/
 ipython_config.py
 
-# Models, Adapters, and Weights
+# Models, Adapters, and Weights (v2/v3 fine-tuning)
 tars_lora/
 final_adapter/
 *.pt
@@ -24,10 +24,13 @@ final_adapter/
 *.safetensors
 *.ckpt
 
+# ChromaDB (v4 — yerel vektör veritabanı, repoya dahil edilmez)
+scripts/Version_4/chroma_db/
+
 # Output Graphics
 loss_curve.png
 *.png
-!TARS.png
+!Image/TARS.png
 
 # IDE and System Files
 .vscode/

@@ -6,3 +6,26 @@ datasets
 bitsandbytes
 trl
 matplotlib
+# TARS v4 — Bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+# Vektör veritabanı
+chromadb>=0.5.0
+
+# Embedding modeli
+sentence-transformers>=3.0.0
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# Ollama Python istemcisi
+ollama>=0.3.0
+
+# Belge okuma
+pypdf>=4.0.0
+python-docx>=1.1.0
+
+# Yardımcılar
+numpy>=1.26.0
+tqdm>=4.66.0
+
